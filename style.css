@@ -1,0 +1,80 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  height: 2rem;
+  background-color: #424242;
+  margin: 0%; /****enlève l'espace avec le carousel ***/
+}
+
+li {
+  list-style-type: none;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  color: #a7a7a7;
+}
+
+li:nth-child(2) {
+  background-color: #e0e0e0;
+}
+
+section .carousel {
+  height: 15rem;
+  background-color: rgb(222, 225, 231);
+}
+
+section h2 {
+  text-align: center;
+  color: #565656;
+  margin: 3rem;
+  font-size: 2.4rem;
+}
+
+span {
+    color: rgb(184, 184, 184);
+    font-size: 1.4rem;
+  }
+
+article {
+  height: 30rem;
+  width: 20rem;
+  background-color: #eeeeee;
+}
+h2{
+    padding-top: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+form h2 {
+  border-top: 2px solid black;
+}
+
+input,
+textarea {
+  margin: 1rem 10% 1rem 10%;
+  height: 1.4rem;
+  border: 2px solid black;
+}
+select {
+  margin: 1rem 10% 1rem 10%;
+  height: 1.4rem;
+  border: 2px solid rgb(209, 206, 206);
+}
+textarea {
+  height: 5rem;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
